@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    >
+    <TableLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="0,1,2"
+        android:background="#2c4c61"
+        android:gravity="center">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button76"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:backgroundTint="#E8E6E6"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:text="Общее"
+                android:textAllCaps="true"
+                android:textColor="#182E3C"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button74"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E8E6E6"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+
+                android:insetRight="1sp"
+
+                android:insetBottom="1sp"
+                android:text="АвтоВаз"
+                android:textAllCaps="true"
+                android:textColor="#182E3C"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button75"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:backgroundTint="#E8E6E6"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:text="Toyota"
+                android:textAllCaps="true"
+                android:textColor="#182E3C"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button71"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E8E6E6"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:text="ALFA ROMEO"
+                android:textAllCaps="true"
+                android:textColor="#182E3C"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button73"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E8E6E6"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:text="AUDI"
+                android:textAllCaps="true"
+                android:textColor="#182E3C"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button72"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E8E6E6"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:text="BMW"
+                android:textAllCaps="true"
+                android:textColor="#182E3C"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button68"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E8E6E6"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:text="Cadillac"
+                android:textAllCaps="true"
+                android:textColor="#182E3C"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button69"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E8E6E6"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:text="Chery"
+                android:textAllCaps="true"
+                android:textColor="#182E3C"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button70"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E8E6E6"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:text="Chevrolet"
+                android:textAllCaps="true"
+                android:textColor="#182E3C"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button66"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E8E6E6"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:text="Crysler"
+                android:textAllCaps="true"
+                android:textColor="#182E3C"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button67"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E8E6E6"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:text="Citroen"
+                android:textAllCaps="true"
+                android:textColor="#182E3C"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button65"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E8E6E6"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:text="Dacia"
+                android:textAllCaps="true"
+                android:textColor="#182E3C"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button63"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E8E6E6"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:text="Daewoo"
+                android:textAllCaps="true"
+                android:textColor="#182E3C"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button64"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E8E6E6"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:text="Daihatsu"
+                android:textAllCaps="true"
+                android:textColor="#182E3C"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E8E6E6"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:text="Datsun"
+                android:textAllCaps="true"
+                android:textColor="#182E3C"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button59"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E8E6E6"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:text="Dodge"
+                android:textAllCaps="true"
+                android:textColor="#182E3C"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button61"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E8E6E6"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:text="Fiat"
+                android:textAllCaps="true"
+                android:textColor="#182E3C"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E8E6E6"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:text="Ford"
+                android:textAllCaps="true"
+                android:textColor="#182E3C"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button56"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E8E6E6"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:text="Geely"
+                android:textAllCaps="true"
+                android:textColor="#182E3C"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button58"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E8E6E6"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:text="gmc"
+                android:textAllCaps="true"
+                android:textColor="#182E3C"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button57"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E8E6E6"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:text="honda"
+                android:textAllCaps="true"
+                android:textColor="#182E3C"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E8E6E6"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:text="hummer"
+                android:textAllCaps="true"
+                android:textColor="#182E3C"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button54"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E8E6E6"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:text="hyundai"
+                android:textAllCaps="true"
+                android:textColor="#182E3C"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button55"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E8E6E6"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:text="infiniti"
+                android:textAllCaps="true"
+                android:textColor="#182E3C"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E8E6E6"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:text="isuzu"
+                android:textAllCaps="true"
+                android:textColor="#182E3C"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E8E6E6"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:text="jaguar"
+                android:textAllCaps="true"
+                android:textColor="#182E3C"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E8E6E6"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:text="jeep"
+                android:textAllCaps="true"
+                android:textColor="#182E3C"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E8E6E6"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:text="kia"
+                android:textAllCaps="true"
+                android:textColor="#182E3C"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E8E6E6"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:text="lancia"
+                android:textAllCaps="true"
+                android:textColor="#182E3C"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button49"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E8E6E6"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:text="land rover"
+                android:textAllCaps="true"
+                android:textColor="#182E3C"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="#2c4c61"
+
+            >
+
+            <Button
+                android:id="@+id/button28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E8E6E6"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:text="lexus"
+                android:textAllCaps="true"
+                android:textColor="#182E3C"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:backgroundTint="#E8E6E6"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:text="mazda"
+                android:textAllCaps="true"
+                android:textColor="#182E3C"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:backgroundTint="#E8E6E6"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:text="mercedes"
+                android:textAllCaps="true"
+                android:textColor="#182E3C"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="#2c4c61"
+
+            >
+
+            <Button
+                android:id="@+id/button25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:backgroundTint="#E8E6E6"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:text="mitsubishi"
+                android:textAllCaps="true"
+                android:textColor="#182E3C"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:backgroundTint="#E8E6E6"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:text="nissan"
+                android:textAllCaps="true"
+                android:textColor="#182E3C"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:backgroundTint="#E8E6E6"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:text="opel"
+                android:textAllCaps="true"
+                android:textColor="#182E3C"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="#2c4c61">
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:backgroundTint="#E8E6E6"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:text="peugeot"
+                android:textAllCaps="true"
+                android:textColor="#182E3C"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:backgroundTint="#E8E6E6"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:text="pontiac"
+                android:textAllCaps="true"
+                android:textColor="#182E3C"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:backgroundTint="#E8E6E6"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:text="renault"
+                android:textAllCaps="true"
+                android:textColor="#182E3C"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="#2c4c61">
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:backgroundTint="#E8E6E6"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:text="saab"
+                android:textAllCaps="true"
+                android:textColor="#182E3C"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E8E6E6"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:text="volvo"
+                android:textAllCaps="true"
+                android:textColor="#182E3C"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:backgroundTint="#E8E6E6"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:text="skoda"
+                android:textAllCaps="true"
+                android:textColor="#182E3C"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="#2c4c61">
+
+            <Button
+                android:id="@+id/button23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:backgroundTint="#E8E6E6"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:text="ssang yong"
+                android:textAllCaps="true"
+                android:textColor="#182E3C"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E8E6E6"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:text="subaru"
+                android:textAllCaps="true"
+                android:textColor="#182E3C"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:backgroundTint="#E8E6E6"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:text="suzuki"
+                android:textAllCaps="true"
+                android:textColor="#182E3C"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/button77"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/button79"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/button78"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button"
+                android:insetLeft="1sp"
+                android:insetTop="2sp"
+                android:insetRight="1sp"
+                android:insetBottom="1sp"
+                android:textSize="12sp" />
+        </TableRow>
+
+    </TableLayout>
+
+
+</FrameLayout>
