@@ -809,14 +809,14 @@
             <Button
                 android:id="@+id/button77"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Button"
+                android:layout_height="match_parent"
                 android:backgroundTint="#E8E6E6"
-                android:textColor="#182E3C"
                 android:insetLeft="1sp"
                 android:insetTop="2sp"
                 android:insetRight="1sp"
                 android:insetBottom="1sp"
+                android:text="помощь"
+                android:textColor="#182E3C"
                 android:textSize="12sp" />
 
             <Button

@@ -808,7 +808,7 @@
                 android:insetTop="2sp"
                 android:insetRight="1sp"
                 android:insetBottom="1sp"
-                android:text="Button"
+                android:text="помощь"
                 android:textColor="#182E3C"
                 android:textSize="12sp" />
 
