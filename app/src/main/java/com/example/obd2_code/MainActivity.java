@@ -1,5 +1,6 @@
 package com.example.obd2_code;
 
+import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
@@ -25,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
 
     private DatabaseHelper mDBHelper;
     private SQLiteDatabase mDb;
-    public String MARK_TABL ;
 
 
     @Override
@@ -33,14 +33,38 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-        avtoerr=(Button) findViewById(R.id.button75);
-        avtoerr.setOnClickListener(new View.OnClickListener() {
+        toyota = (Button) findViewById(R.id.button75);
+        avtovaz = (Button) findViewById(R.id.button74);
+        toyota.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                MARK_TABL="toyota";
+
+                Intent intent = new Intent(MainActivity.this, AvtoErr.class);
+                String MARK_TABL = "Коды ошибок для автомобиля TOYOTA";
+                String TABL_BD = "toyota";
+                intent.putExtra("MARK_TABL", MARK_TABL);
+                intent.putExtra("TABL_BD", TABL_BD);
+                startActivity(intent);
 
             }
         });
+
+
+        avtovaz.setOnClickListener(new View.OnClickListener()
+
+    {
+        @Override
+        public void onClick (View v){
+
+        Intent intent = new Intent(MainActivity.this, AvtoErr.class);
+        String MARK_TABL = "Коды ошибок для автомобиля АвтоВАЗ";
+            String TABL_BD = "avtoVaz";
+        intent.putExtra("MARK_TABL", MARK_TABL);
+            intent.putExtra("TABL_BD", TABL_BD);
+        startActivity(intent);
+
     }
+    });
+}
+
 }
