@@ -545,7 +545,6 @@
                 android:id="@+id/button29"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
                 android:backgroundTint="#E8E6E6"
                 android:insetLeft="1sp"
                 android:insetTop="2sp"
@@ -561,7 +560,6 @@
                 android:id="@+id/button30"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
                 android:backgroundTint="#E8E6E6"
                 android:insetLeft="1sp"
                 android:insetTop="2sp"
@@ -587,7 +585,6 @@
                 android:id="@+id/button25"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
                 android:backgroundTint="#E8E6E6"
                 android:insetLeft="1sp"
                 android:insetTop="2sp"
@@ -702,7 +699,6 @@
                 android:id="@+id/button20"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
                 android:backgroundTint="#E8E6E6"
                 android:insetLeft="1sp"
                 android:insetTop="2sp"
