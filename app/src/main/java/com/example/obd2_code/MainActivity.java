@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
     Button ssangyong;
     Button subaru;
     Button suzuki;
+    Button help;
 
     private DatabaseHelper mDBHelper;
     private SQLiteDatabase mDb;
@@ -109,6 +110,16 @@ public class MainActivity extends AppCompatActivity {
         ssangyong=(Button) findViewById(R.id.button23);
         subaru=(Button) findViewById(R.id.button24);
         suzuki=(Button) findViewById(R.id.button16);
+        help=(Button) findViewById(R.id.button78);
+
+        help.setOnClickListener(new View.OnClickListener()  {
+            @Override
+            public void onClick (View v){
+                Intent intent = new Intent(MainActivity.this, Help.class);
+                                startActivity(intent);
+            }
+        });
+
 
         suzuki.setOnClickListener(new View.OnClickListener()  {
             @Override
