@@ -58,8 +58,6 @@ public class MainActivity extends AppCompatActivity {
     Button suzuki;
     Button help;
 
-    private DatabaseHelper mDBHelper;
-    private SQLiteDatabase mDb;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -111,12 +109,24 @@ public class MainActivity extends AppCompatActivity {
         subaru=(Button) findViewById(R.id.button24);
         suzuki=(Button) findViewById(R.id.button16);
         help=(Button) findViewById(R.id.button78);
+        avtoerr=(Button) findViewById(R.id.button76);
 
         help.setOnClickListener(new View.OnClickListener()  {
             @Override
             public void onClick (View v){
                 Intent intent = new Intent(MainActivity.this, Help.class);
                                 startActivity(intent);
+            }
+        });
+        avtoerr.setOnClickListener(new View.OnClickListener()  {
+            @Override
+            public void onClick (View v){
+                Intent intent = new Intent(MainActivity.this, AvtoErr.class);
+                String MARK_TABL = "Коды ошибок общее обозначение";
+                String TABL_BD = " all";
+                intent.putExtra("MARK_TABL", MARK_TABL);
+                intent.putExtra("TABL_BD", TABL_BD);
+                startActivity(intent);
             }
         });
 

@@ -8,16 +8,36 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="381dp"
-        android:layout_height="74dp"
-        android:layout_marginStart="140dp"
-        android:layout_marginTop="70dp"
-        android:layout_marginEnd="100dp"
-        android:layout_marginBottom="871dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="16dp"
         android:text="Помощь"
-        android:textSize="24sp"
+        android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="479dp"
+        android:text="Мы находимся на северо-востоке,\n г.Челябинск, \nул. 8-й фабрично-Заводской переулок, д15
+        \n\n тел. по вопросам диагностики автомобиля:\n 8(904)946-80-35 \n тел. по вопросам работы приложения:\n 8(902)614-34-37 \n
+zhizn74@yandex.ru"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
