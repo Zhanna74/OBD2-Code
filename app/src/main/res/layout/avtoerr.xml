@@ -5,33 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
     <EditText
         android:id="@+id/editText"
         android:layout_width="210dp"
         android:layout_height="46dp"
-        android:layout_marginStart="187dp"
-        android:layout_marginTop="165dp"
-        android:layout_marginBottom="48dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="52dp"
         android:ems="10"
         android:hint="Введите номер ошибки: 1015"
         android:inputType="number"
-        app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintStart_toEndOf="@+id/guideline"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="577dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="150dp"
-        android:layout_marginTop="48dp"
-        android:layout_marginEnd="150dp"
-        android:text="Button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/guideline"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
-
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
@@ -42,17 +27,18 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="150dp"
-        android:layout_marginTop="8dp"
+        android:layout_width="286dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="32dp"
         android:layout_marginBottom="8dp"
         android:text="TextView"
         app:layout_constraintBottom_toTopOf="@+id/editText"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/guideline2" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
@@ -66,11 +52,68 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="332dp"
+        android:layout_marginTop="400dp"
         android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBoxC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="315dp"
+        android:text="C код работы ходовой части (шасси)"
+        app:layout_constraintBottom_toTopOf="@+id/checkBoxU"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toEndOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxP" />
+
+    <CheckBox
+        android:id="@+id/checkBoxP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="315dp"
+        android:text="P код работы двигателя и/или АКПП"
+        app:layout_constraintBottom_toTopOf="@+id/checkBoxC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toEndOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <CheckBox
+        android:id="@+id/checkBoxU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="315dp"
+        android:text="U код взаимодействия между электронными блоками"
+        app:layout_constraintBottom_toTopOf="@+id/checkBoxB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.169"
+        app:layout_constraintStart_toEndOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxC" />
+
+    <CheckBox
+        android:id="@+id/checkBoxB"
+        android:layout_width="406dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="315dp"
+        android:text="B  код работы электростеклоподъёмников, подушек безопасности и т.д."
+        android:textIsSelectable="false"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/ListVeiw"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.151"
+        app:layout_constraintStart_toEndOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxU" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
