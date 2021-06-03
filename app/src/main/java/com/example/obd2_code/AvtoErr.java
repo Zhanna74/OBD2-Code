@@ -4,6 +4,7 @@ import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
+import android.widget.CheckBox;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -18,9 +19,14 @@ public class AvtoErr extends AppCompatActivity {
     private DatabaseHelper mDBHelper;
     private SQLiteDatabase mDb;
 
-    public static final String MARK_COLUMN = "Code";
-    public static final String P_COLUMN = "P";
-    public static final String DESCR_COLUMN = "Descr";
+    private CheckBox checkBoxP;
+    private CheckBox checkBoxC;
+    private CheckBox checkBoxB;
+    private CheckBox checkBoxU;
+
+    public static final String MARK_COLUMN = "field2";
+    public static final String P_COLUMN = "field1";
+    public static final String DESCR_COLUMN = "field3";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,7 +51,7 @@ public class AvtoErr extends AppCompatActivity {
         }
 
         TextView  textView = (TextView) findViewById(R.id.textView);
-        final ListView list = (ListView) findViewById(R.id.ListVeiw);
+        final ListView list = (ListView) findViewById(R.id.ListView);
 
         final ArrayList<String> COLUMN_list = new ArrayList<>();
         final ArrayAdapter<String> adapter;
