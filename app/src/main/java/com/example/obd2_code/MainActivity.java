@@ -123,7 +123,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick (View v){
                 Intent intent = new Intent(MainActivity.this, AvtoErr.class);
                 String MARK_TABL = "Коды ошибок общее обозначение";
-                String TABL_BD = " all";
+                String TABL_BD = "all";
                 intent.putExtra("MARK_TABL", MARK_TABL);
                 intent.putExtra("TABL_BD", TABL_BD);
                 startActivity(intent);
@@ -136,7 +136,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick (View v){
                 Intent intent = new Intent(MainActivity.this, AvtoErr.class);
                 String MARK_TABL = "Коды ошибок для автомобиля suzuki";
-                String TABL_BD = " suzuki";
+                String TABL_BD = "suzuki";
                 intent.putExtra("MARK_TABL", MARK_TABL);
                 intent.putExtra("TABL_BD", TABL_BD);
                 startActivity(intent);
@@ -149,7 +149,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick (View v){
                 Intent intent = new Intent(MainActivity.this, AvtoErr.class);
                 String MARK_TABL = "Коды ошибок для автомобиля subaru";
-                String TABL_BD = " subaru";
+                String TABL_BD = "subaru";
                 intent.putExtra("MARK_TABL", MARK_TABL);
                 intent.putExtra("TABL_BD", TABL_BD);
                 startActivity(intent);
@@ -162,7 +162,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick (View v){
                 Intent intent = new Intent(MainActivity.this, AvtoErr.class);
                 String MARK_TABL = "Коды ошибок для автомобиля ssangyong";
-                String TABL_BD = " ssangyong";
+                String TABL_BD = "Ssangyong";
                 intent.putExtra("MARK_TABL", MARK_TABL);
                 intent.putExtra("TABL_BD", TABL_BD);
                 startActivity(intent);
@@ -174,7 +174,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick (View v){
                 Intent intent = new Intent(MainActivity.this, AvtoErr.class);
                 String MARK_TABL = "Коды ошибок для автомобиля skoda";
-                String TABL_BD = " skoda";
+                String TABL_BD = "skoda";
                 intent.putExtra("MARK_TABL", MARK_TABL);
                 intent.putExtra("TABL_BD", TABL_BD);
                 startActivity(intent);
@@ -186,7 +186,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick (View v){
                 Intent intent = new Intent(MainActivity.this, AvtoErr.class);
                 String MARK_TABL = "Коды ошибок для автомобиля volvo";
-                String TABL_BD = " volvo";
+                String TABL_BD = "volvo";
                 intent.putExtra("MARK_TABL", MARK_TABL);
                 intent.putExtra("TABL_BD", TABL_BD);
                 startActivity(intent);
@@ -198,7 +198,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick (View v){
                 Intent intent = new Intent(MainActivity.this, AvtoErr.class);
                 String MARK_TABL = "Коды ошибок для автомобиля saab";
-                String TABL_BD = " saab";
+                String TABL_BD = "Saab";
                 intent.putExtra("MARK_TABL", MARK_TABL);
                 intent.putExtra("TABL_BD", TABL_BD);
                 startActivity(intent);
@@ -210,7 +210,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick (View v){
                 Intent intent = new Intent(MainActivity.this, AvtoErr.class);
                 String MARK_TABL = "Коды ошибок для автомобиля renault";
-                String TABL_BD = " renault";
+                String TABL_BD = "renault";
                 intent.putExtra("MARK_TABL", MARK_TABL);
                 intent.putExtra("TABL_BD", TABL_BD);
                 startActivity(intent);
@@ -222,7 +222,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick (View v){
                 Intent intent = new Intent(MainActivity.this, AvtoErr.class);
                 String MARK_TABL = "Коды ошибок для автомобиля pontiac";
-                String TABL_BD = " pontiac";
+                String TABL_BD = "pontiac";
                 intent.putExtra("MARK_TABL", MARK_TABL);
                 intent.putExtra("TABL_BD", TABL_BD);
                 startActivity(intent);
@@ -234,7 +234,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick (View v){
                 Intent intent = new Intent(MainActivity.this, AvtoErr.class);
                 String MARK_TABL = "Коды ошибок для автомобиля peugeot";
-                String TABL_BD = " peugeot";
+                String TABL_BD = "citroenpegeot";
                 intent.putExtra("MARK_TABL", MARK_TABL);
                 intent.putExtra("TABL_BD", TABL_BD);
                 startActivity(intent);
@@ -246,7 +246,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick (View v){
                 Intent intent = new Intent(MainActivity.this, AvtoErr.class);
                 String MARK_TABL = "Коды ошибок для автомобиля opel";
-                String TABL_BD = " opel";
+                String TABL_BD = "Opel";
                 intent.putExtra("MARK_TABL", MARK_TABL);
                 intent.putExtra("TABL_BD", TABL_BD);
                 startActivity(intent);
@@ -258,7 +258,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick (View v){
                 Intent intent = new Intent(MainActivity.this, AvtoErr.class);
                 String MARK_TABL = "Коды ошибок для автомобиля nissan";
-                String TABL_BD = " nissan";
+                String TABL_BD = "nissan";
                 intent.putExtra("MARK_TABL", MARK_TABL);
                 intent.putExtra("TABL_BD", TABL_BD);
                 startActivity(intent);
@@ -271,7 +271,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick (View v){
                 Intent intent = new Intent(MainActivity.this, AvtoErr.class);
                 String MARK_TABL = "Коды ошибок для автомобиля mitsubishi";
-                String TABL_BD = " mitsubishi";
+                String TABL_BD = "mitsubishi";
                 intent.putExtra("MARK_TABL", MARK_TABL);
                 intent.putExtra("TABL_BD", TABL_BD);
                 startActivity(intent);
@@ -283,7 +283,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick (View v){
                 Intent intent = new Intent(MainActivity.this, AvtoErr.class);
                 String MARK_TABL = "Коды ошибок для автомобиля mercedes";
-                String TABL_BD = " mercedes";
+                String TABL_BD = "mercedes";
                 intent.putExtra("MARK_TABL", MARK_TABL);
                 intent.putExtra("TABL_BD", TABL_BD);
                 startActivity(intent);
@@ -295,7 +295,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick (View v){
                 Intent intent = new Intent(MainActivity.this, AvtoErr.class);
                 String MARK_TABL = "Коды ошибок для автомобиля mazda";
-                String TABL_BD = " mazda";
+                String TABL_BD = "mazda";
                 intent.putExtra("MARK_TABL", MARK_TABL);
                 intent.putExtra("TABL_BD", TABL_BD);
                 startActivity(intent);
@@ -307,7 +307,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick (View v){
                 Intent intent = new Intent(MainActivity.this, AvtoErr.class);
                 String MARK_TABL = "Коды ошибок для автомобиля lexus";
-                String TABL_BD = " lexus";
+                String TABL_BD = "lexus";
                 intent.putExtra("MARK_TABL", MARK_TABL);
                 intent.putExtra("TABL_BD", TABL_BD);
                 startActivity(intent);
@@ -319,7 +319,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick (View v){
                 Intent intent = new Intent(MainActivity.this, AvtoErr.class);
                 String MARK_TABL = "Коды ошибок для автомобиля rover";
-                String TABL_BD = " rover";
+                String TABL_BD = "Rover";
                 intent.putExtra("MARK_TABL", MARK_TABL);
                 intent.putExtra("TABL_BD", TABL_BD);
                 startActivity(intent);
@@ -331,7 +331,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick (View v){
                 Intent intent = new Intent(MainActivity.this, AvtoErr.class);
                 String MARK_TABL = "Коды ошибок для автомобиля lancia";
-                String TABL_BD = " lancia";
+                String TABL_BD = "lancia";
                 intent.putExtra("MARK_TABL", MARK_TABL);
                 intent.putExtra("TABL_BD", TABL_BD);
                 startActivity(intent);
@@ -343,7 +343,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick (View v){
                 Intent intent = new Intent(MainActivity.this, AvtoErr.class);
                 String MARK_TABL = "Коды ошибок для автомобиля kia";
-                String TABL_BD = " kia";
+                String TABL_BD = "Kia";
                 intent.putExtra("MARK_TABL", MARK_TABL);
                 intent.putExtra("TABL_BD", TABL_BD);
                 startActivity(intent);
@@ -355,7 +355,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick (View v){
                 Intent intent = new Intent(MainActivity.this, AvtoErr.class);
                 String MARK_TABL = "Коды ошибок для автомобиля jeep";
-                String TABL_BD = " jeep";
+                String TABL_BD = "CryslerJeep";
                 intent.putExtra("MARK_TABL", MARK_TABL);
                 intent.putExtra("TABL_BD", TABL_BD);
                 startActivity(intent);
@@ -367,7 +367,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick (View v){
                 Intent intent = new Intent(MainActivity.this, AvtoErr.class);
                 String MARK_TABL = "Коды ошибок для автомобиля jaguar";
-                String TABL_BD = " jaguar";
+                String TABL_BD = "jaguar";
                 intent.putExtra("MARK_TABL", MARK_TABL);
                 intent.putExtra("TABL_BD", TABL_BD);
                 startActivity(intent);
@@ -379,7 +379,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick (View v){
                 Intent intent = new Intent(MainActivity.this, AvtoErr.class);
                 String MARK_TABL = "Коды ошибок для автомобиля isuzu";
-                String TABL_BD = " isuzu";
+                String TABL_BD = "isuzu";
                 intent.putExtra("MARK_TABL", MARK_TABL);
                 intent.putExtra("TABL_BD", TABL_BD);
                 startActivity(intent);
@@ -391,7 +391,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick (View v){
                 Intent intent = new Intent(MainActivity.this, AvtoErr.class);
                 String MARK_TABL = "Коды ошибок для автомобиля infiniti";
-                String TABL_BD = " infiniti";
+                String TABL_BD = "infiniti";
                 intent.putExtra("MARK_TABL", MARK_TABL);
                 intent.putExtra("TABL_BD", TABL_BD);
                 startActivity(intent);
@@ -403,7 +403,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick (View v){
                 Intent intent = new Intent(MainActivity.this, AvtoErr.class);
                 String MARK_TABL = "Коды ошибок для автомобиля hyundai";
-                String TABL_BD = " hyundai";
+                String TABL_BD = "Hyundai";
                 intent.putExtra("MARK_TABL", MARK_TABL);
                 intent.putExtra("TABL_BD", TABL_BD);
                 startActivity(intent);
@@ -415,7 +415,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick (View v){
                 Intent intent = new Intent(MainActivity.this, AvtoErr.class);
                 String MARK_TABL = "Коды ошибок для автомобиля hummer";
-                String TABL_BD = " hummer";
+                String TABL_BD = "hummer";
                 intent.putExtra("MARK_TABL", MARK_TABL);
                 intent.putExtra("TABL_BD", TABL_BD);
                 startActivity(intent);
@@ -427,7 +427,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick (View v){
                 Intent intent = new Intent(MainActivity.this, AvtoErr.class);
                 String MARK_TABL = "Коды ошибок для автомобиля honda";
-                String TABL_BD = " honda";
+                String TABL_BD = "honda";
                 intent.putExtra("MARK_TABL", MARK_TABL);
                 intent.putExtra("TABL_BD", TABL_BD);
                 startActivity(intent);
@@ -439,7 +439,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick (View v){
                 Intent intent = new Intent(MainActivity.this, AvtoErr.class);
                 String MARK_TABL = "Коды ошибок для автомобиля gmc";
-                String TABL_BD = " gmc";
+                String TABL_BD = "gmc";
                 intent.putExtra("MARK_TABL", MARK_TABL);
                 intent.putExtra("TABL_BD", TABL_BD);
                 startActivity(intent);
@@ -451,7 +451,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick (View v){
                 Intent intent = new Intent(MainActivity.this, AvtoErr.class);
                 String MARK_TABL = "Коды ошибок для автомобиля Geely";
-                String TABL_BD = " Geely";
+                String TABL_BD = "geely";
                 intent.putExtra("MARK_TABL", MARK_TABL);
                 intent.putExtra("TABL_BD", TABL_BD);
                 startActivity(intent);
@@ -463,7 +463,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick (View v){
                 Intent intent = new Intent(MainActivity.this, AvtoErr.class);
                 String MARK_TABL = "Коды ошибок для автомобиля Ford";
-                String TABL_BD = " Ford";
+                String TABL_BD = "ford";
                 intent.putExtra("MARK_TABL", MARK_TABL);
                 intent.putExtra("TABL_BD", TABL_BD);
                 startActivity(intent);
@@ -475,7 +475,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick (View v){
                 Intent intent = new Intent(MainActivity.this, AvtoErr.class);
                 String MARK_TABL = "Коды ошибок для автомобиля Fiat";
-                String TABL_BD = "Fiat";
+                String TABL_BD = "fiat";
                 intent.putExtra("MARK_TABL", MARK_TABL);
                 intent.putExtra("TABL_BD", TABL_BD);
                 startActivity(intent);
@@ -487,7 +487,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick (View v){
                 Intent intent = new Intent(MainActivity.this, AvtoErr.class);
                 String MARK_TABL = "Коды ошибок для автомобиля Dodge";
-                String TABL_BD = "Dodge";
+                String TABL_BD = "dodge";
                 intent.putExtra("MARK_TABL", MARK_TABL);
                 intent.putExtra("TABL_BD", TABL_BD);
                 startActivity(intent);
@@ -499,7 +499,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick (View v){
                 Intent intent = new Intent(MainActivity.this, AvtoErr.class);
                 String MARK_TABL = "Коды ошибок для автомобиля Datsun";
-                String TABL_BD = "Datsun";
+                String TABL_BD = "datsun";
                 intent.putExtra("MARK_TABL", MARK_TABL);
                 intent.putExtra("TABL_BD", TABL_BD);
                 startActivity(intent);
@@ -511,7 +511,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick (View v){
                 Intent intent = new Intent(MainActivity.this, AvtoErr.class);
                 String MARK_TABL = "Коды ошибок для автомобиля Daihatsu";
-                String TABL_BD = "Daihatsu";
+                String TABL_BD = "daihatsu";
                 intent.putExtra("MARK_TABL", MARK_TABL);
                 intent.putExtra("TABL_BD", TABL_BD);
                 startActivity(intent);
@@ -523,7 +523,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick (View v){
                 Intent intent = new Intent(MainActivity.this, AvtoErr.class);
                 String MARK_TABL = "Коды ошибок для автомобиля Daewoo";
-                String TABL_BD = "Daewoo";
+                String TABL_BD = "daewoo";
                 intent.putExtra("MARK_TABL", MARK_TABL);
                 intent.putExtra("TABL_BD", TABL_BD);
                 startActivity(intent);
@@ -535,7 +535,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick (View v){
                 Intent intent = new Intent(MainActivity.this, AvtoErr.class);
                 String MARK_TABL = "Коды ошибок для автомобиля Dacia";
-                String TABL_BD = "Dacia";
+                String TABL_BD = "dacia";
                 intent.putExtra("MARK_TABL", MARK_TABL);
                 intent.putExtra("TABL_BD", TABL_BD);
                 startActivity(intent);
@@ -547,7 +547,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick (View v){
                 Intent intent = new Intent(MainActivity.this, AvtoErr.class);
                 String MARK_TABL = "Коды ошибок для автомобиля Citroen";
-                String TABL_BD = "Citroen";
+                String TABL_BD = "citroenpegeot";
                 intent.putExtra("MARK_TABL", MARK_TABL);
                 intent.putExtra("TABL_BD", TABL_BD);
                 startActivity(intent);
@@ -559,7 +559,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick (View v){
                 Intent intent = new Intent(MainActivity.this, AvtoErr.class);
                 String MARK_TABL = "Коды ошибок для автомобиля Crysler";
-                String TABL_BD = "Crysler";
+                String TABL_BD = "CryslerJeep";
                 intent.putExtra("MARK_TABL", MARK_TABL);
                 intent.putExtra("TABL_BD", TABL_BD);
                 startActivity(intent);
@@ -607,7 +607,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick (View v){
                 Intent intent = new Intent(MainActivity.this, AvtoErr.class);
                 String MARK_TABL = "Коды ошибок для автомобиля BMW";
-                String TABL_BD = "BMW";
+                String TABL_BD = "bmw";
                 intent.putExtra("MARK_TABL", MARK_TABL);
                 intent.putExtra("TABL_BD", TABL_BD);
                 startActivity(intent);
@@ -642,7 +642,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick (View v){
                 Intent intent = new Intent(MainActivity.this, AvtoErr.class);
                 String MARK_TABL = "Коды ошибок для автомобиля ALFA ROMEO";
-                String TABL_BD = "ALFA ROMEO";
+                String TABL_BD = "alfaromeo";
                 intent.putExtra("MARK_TABL", MARK_TABL);
                 intent.putExtra("TABL_BD", TABL_BD);
                 startActivity(intent);
@@ -653,7 +653,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick (View v){
                 Intent intent = new Intent(MainActivity.this, AvtoErr.class);
                 String MARK_TABL = "Коды ошибок для автомобиля AUDI";
-                String TABL_BD = "AUDI";
+                String TABL_BD = "AudiSeatSkodaVolkswagen";
                 intent.putExtra("MARK_TABL", MARK_TABL);
                 intent.putExtra("TABL_BD", TABL_BD);
                 startActivity(intent);
