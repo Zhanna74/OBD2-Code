@@ -9,7 +9,7 @@
         android:layout_width="fill_parent"
         android:layout_height="match_parent"
         android:stretchColumns="0,1,2"
-        android:background="#042133"
+        android:background="#17013f"
         android:gravity="center">
 
 
@@ -811,7 +811,7 @@
                 android:insetTop="2sp"
                 android:insetRight="1sp"
                 android:insetBottom="1sp"
-                android:text="помощь"
+                android:text="Button"
                 android:textColor="#182E3C"
                 android:textSize="12sp" />
 
@@ -832,7 +832,7 @@
                 android:id="@+id/button78"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Button"
+                android:text="HELP"
                 android:backgroundTint="#E8E6E6"
                 android:textColor="#182E3C"
                 android:insetLeft="1sp"

@@ -142,32 +142,35 @@ public class AvtoErr extends AppCompatActivity {
                                 textView.setText("Наберите номер ошибки!" +check);
                                 check="P";
 
-                            }
+                            }else {check=null;}
 
                                 if (checkBoxC.isChecked()) {
                                     textView.setText("Наберите номер ошибки!" +check);
                                     check="C";
 
-                                }
+                                }else {check=null;}
                                 if (checkBoxF.isChecked()) {
                                     textView.setText("Наберите номер ошибки!" +check);
                                     check="F";
 
-                                }
+                                }else {check=null;}
                                 if (checkBoxB.isChecked()) {
                                     textView.setText("Наберите номер ошибки!" +check);
                                     check="B";
 
-                                }
+                                }else {check=null;}
                                 if (checkBoxU.isChecked()) {
                                     textView.setText("Наберите номер ошибки!" +check);
                                     check="U";
 
-                                }
+                                }else {check.isEmpty();}
                                 str = editText.getText().toString();
                                 //PUC.add(0, editText.getText().toString());
-                                Cursor cursor = mDb.rawQuery("SELECT * FROM "+TABL+"WHERE field1='"+check+
+                                if (check.isEmpty()){Cursor cursor = mDb.rawQuery("SELECT * FROM `"+TABL+"` WHERE AND field2 LIKE '"+str+"%'", null);}
+                                   else{
+                                Cursor cursor = mDb.rawQuery("SELECT * FROM `"+TABL+"` WHERE field1='"+check+
                                         "' AND field2 LIKE '"+str+"%'", null);
+                                
 
                                 cursor.moveToFirst();
                                 while (!cursor.isAfterLast()) {
@@ -187,7 +190,7 @@ public class AvtoErr extends AppCompatActivity {
                                     COLUMN_list.add(new String(item_desc));
 
                                     cursor.moveToNext();
-                                }if (COLUMN_list.isEmpty()){textView.setText("Такой ошибки не найдено."); }
+                                }}if (COLUMN_list.isEmpty()){textView.setText("Такой ошибки не найдено."); }
 
 
 
